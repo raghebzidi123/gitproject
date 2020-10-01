@@ -1,0 +1,77 @@
+#pap{
+      background-color: rgb(0, 17, 255);
+      border-radius:0.5% 0.3% ;
+    }
+
+
+#rounde{
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    height:90px;
+}
+
+
+
+#elle {
+    display: inline-block;
+    border: 2px ;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  img {
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+  }
+  
+  /* Bonus : keep aspect-ratio */ 
+  img {
+    object-fit: cover;
+    object-position: right center;
+  }
+  
+  /* Bonus : effect on :hover */
+  img {
+    transition: object-position .25s;
+  }
+  img:hover {
+    object-position: center
+  }
+  
+  /* Deco */
+  body {
+    padding: 2em
+  }
+
+  #oups{
+    background-color: rgb(142, 142, 240) ;width: 70%;
+    color: cornsilk;
+
+  }
+  #vous{
+      color: blue;
+        font-size: 26.8px;
+         font-family: sans-serif;
+  }
+  h3{
+      
+    background-color:rgba(237, 237, 240, 1);width:30%;
+  }
+  
+ h1{
+  background-color: rgb(142, 142, 240) ;width:85% ;
+  color: cornsilk;
+
+} 
+h2{background-color: rgb(142, 142, 240) ;width:30% ;
+  color: cornsilk;
+} 
+  
+ 
+  body{
+  font-style: oblique;}
